@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    background-color: white;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+
+caption {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px 5px;
+    text-align: center;
+    min-width: 120px;
+    height: 40px;
+}
+
+thead th {
+    background-color: black;
+    color: white;
+    font-size: 1.1rem;
+    padding: 10px 0;
+}
+
+tbody th {
+    background-color: black;
+    color: white;
+    font-size: 1.1rem;
+    text-align: left;
+    padding-left: 10px;
+}
+
+/* Vakken styling met contrast */
+.webtech {
+    background-color: #ff3300;
+    color: white;
+}
+
+.databases {
+    background-color: #0000ff;
+    color: white;
+}
+
+.it-essentials {
+    background-color: #663399;
+    color: white;
+}
+
+.it-organisatie {
+    background-color: #ffb3c1;
+    color: black;
+}
